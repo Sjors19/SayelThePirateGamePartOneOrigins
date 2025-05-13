@@ -29,13 +29,12 @@ public:
         if (name == "sjors") {
             cout << name << " says: Make that Scallywag walk the Plank!" << "\n" << endl;
         }
+        else if (name == "tijs") {
+            cout << name << " says: Kom je gezellig mee klimmen?" << "\n" << "Oh ja! En kaas is goated!" << "\n" << endl;
+        }
         else {
             cout << name << " says: Yar Scallywags!" << "\n" << endl;
         }
-    }
-
-    void speak_vile() {
-        cout << name << " says: Make that Scallywag walk the Plank!" << "\n" << endl;
     }
 };
 
