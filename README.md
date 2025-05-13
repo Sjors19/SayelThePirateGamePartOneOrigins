@@ -22,3 +22,6 @@
 [chat GPT prompt 1](https://chatgpt.com/share/6822fcf9-afac-8010-8416-122f77632486)
 -prompt 1 is vooral gebruikt om te kijken naar voorbeelden van hoe we de classes kunnen aanpakken
 
+~prompt 1 is vooral gebruikt om te kijken naar voorbeelden van hoe we de classes kunnen aanpakken
+
+
