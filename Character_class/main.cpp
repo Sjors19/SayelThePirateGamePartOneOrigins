@@ -1,6 +1,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#define CATCH_CONFIG_MAIN  // generates main()
+#include "catch2/catch.hpp"
+
 
 using namespace std;
 
