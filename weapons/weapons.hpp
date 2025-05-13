@@ -6,7 +6,7 @@
 
 using namespace std;
 
-class weapons
+class Weapon
 {
 protected:
     string Name;
@@ -14,10 +14,11 @@ protected:
     int Range;
 
 public:
-    weapons(string Name, int Damage, int Range);
-
-    void Fire(){
-    };
+    Weapon(string Name, int Damage, int Range);
+    string GetName();
+    int GetDamage();
+    int GetRange();
+    void Fire();
 };
 
 #endif
