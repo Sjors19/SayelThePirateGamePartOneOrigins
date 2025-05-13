@@ -16,7 +16,7 @@ class boat {
 };
 
 class brig : public boat{
-    
+    //test
 };
 
 int main() {
