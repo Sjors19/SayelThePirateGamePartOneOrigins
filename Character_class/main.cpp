@@ -2,7 +2,7 @@
 #include <string>
 #include <vector>
 #define CATCH_CONFIG_MAIN  // generates main()
-#include "catch2/catch.hpp"
+// #include "catch2/catch.hpp"
 
 
 using namespace std;
@@ -32,13 +32,12 @@ public:
         if (name == "sjors") {
             cout << name << " says: Make that Scallywag walk the Plank!" << "\n" << endl;
         }
+        else if (name == "tijs") {
+            cout << name << " says: Kom je gezellig mee klimmen?" << "\n" << "Oh ja! En kaas is goated!" << "\n" << endl;
+        }
         else {
             cout << name << " says: Yar Scallywags!" << "\n" << endl;
         }
-    }
-
-    void speak_vile() {
-        cout << name << " says: Make that Scallywag walk the Plank!" << "\n" << endl;
     }
 };
 
