@@ -18,24 +18,44 @@ public:
     }
 };
 
-// class Player : public Character {
-// private:
+class Player : public Character {
+private:
     
 
-// public:
+public:
+    Player(string name, int health, int stamina) : Character(name, health, stamina) {}
 
-// };
+    void speak() {
+        if (name == "sjors") {
+            cout << name << " says: Make that Scallywag walk the Plank!" << "\n" << endl;
+        }
+        else {
+            cout << name << " says: Yar Scallywags!" << "\n" << endl;
+        }
+    }
+
+    void speak_vile() {
+        cout << name << " says: Make that Scallywag walk the Plank!" << "\n" << endl;
+    }
+};
 
 int main () {
-    Character sjors("sjors", 100, 100);
-    Character ryan("ryan", 100, 100);
-    Character tijs("tijs", 50, 200);
-    Character erin("erin", 25, 10);
+    Player sjors("sjors", 100, 100);
+    Player ryan("ryan", 100, 100);
+    Player tijs("tijs", 50, 200);
+    Player erin("erin", 25, 10);
 
     sjors.showStats();
+    sjors.speak();
+
     ryan.showStats();
+    ryan.speak();
+
     tijs.showStats();
+    tijs.speak();
+
     erin.showStats();
+    erin.speak();
 
     return 0;
 }
