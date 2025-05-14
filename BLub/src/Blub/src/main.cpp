@@ -45,7 +45,7 @@ int main()
             }
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::A))
             {
-                // left key is pressed: move our character
+                // A key is pressed: move our character
                 ship1.sprite.move({-2.f, 0.f});
 
                 ship1.sprite.setRotation(sf::degrees(90));
@@ -53,19 +53,19 @@ int main()
 
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::W))
             {
-                // left key is pressed: move our character
+
                 ship1.sprite.move({0.f, -2.f});
                 ship1.sprite.setRotation(sf::degrees(180));
             }            
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::S))
             {
-                // left key is pressed: move our character
+
                 ship1.sprite.move({0.f, 2.f});
                 ship1.sprite.setRotation(sf::degrees(0));
             }            
             if (sf::Keyboard::isKeyPressed(sf::Keyboard::Key::D))
             {
-                // left key is pressed: move our character
+
                 ship1.sprite.move({2.f, 0.f});
                 ship1.sprite.setRotation(sf::degrees(270));
             }            
