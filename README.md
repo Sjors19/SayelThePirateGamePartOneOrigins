@@ -3,7 +3,7 @@
 -Sjors: bedenken wat we maken + progameren boten
 -Erin: progameren karakters
 -Tijs: Unit-tests + Doxygen
--Sen: slapen
+-Sen: sfml
 
 
 **doel van de applicatie, hoe het moet worden gebouwd, hoe het te gebruiken is.**
@@ -15,7 +15,7 @@
 -Sjors: Ideeen bedenken en progameren classes boten.
 -Erin: classes karakters en progameren.
 -Tijs: Unit-tests. Doxygen.
--Sen: .
+-Sen: SFML gui met ship.
 
 
 **gebruik van bronnen en hulpmiddelen (bv ChatGPT: prompt, respons en hoe het werd gebruikt):**
